@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <h1>hello</h1>
+    {% csrf_token %}
+    <form method="POST">
+        {{MF.as_p}}
+        {{FM.as_p}}
+        <input type="submit" value="submit ">
+    </form>
+</center>
+</body>
+</html>
