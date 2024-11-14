@@ -9,5 +9,5 @@ class userform(forms.ModelForm):
 class profileform(forms.ModelForm):
     class Meta:
         model = profile
-        fields = '__all__'
+        fields=['address','pic']
 
